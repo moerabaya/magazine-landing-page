@@ -1,0 +1,241 @@
+@use "../../../../assets/styles/utils/functions.scss";
+
+.articles-list {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	gap: 30px;
+	flex: 1;
+	justify-content: space-between;
+}
+.vertical-card {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: auto;
+	align-items: flex-start;
+	gap: 30px;
+	picture {
+		display: block;
+	}
+	.card-image.rounded {
+		border-radius: 50%;
+	}
+	.card-title {
+		margin: 0;
+		font-family: 'Playfair Display', serif;
+		font-size: functions.em(28);
+	}
+	.card-pre-title {
+		margin: 0;
+		font-weight: 400;
+	}
+
+	.card-post-title {
+		margin: 0;
+		font-weight: 400;
+		font-size: 1rem;
+	}
+
+	&.small-card {
+		.card-content {
+			gap: 0.8em
+		}
+	}
+
+	&:hover {
+		cursor: pointer;
+		.card-title, .card-description {
+			text-decoration: underline;
+		}
+	}
+	
+	&.story-card {
+		padding: 1rem;
+		flex: 1;
+		align-self: flex-end;
+		&:last-child .card-label {
+			background-color: transparent;
+			border: 2px solid var(--font-color);
+			color: var(--font-color);
+		}
+		&:last-child .card-content > *:not(.card-label) {
+			opacity: 0.2;
+			transition: 0.2s ease;
+		}
+		&:last-child:hover .card-content > * {
+			opacity: 1;
+		}
+	}
+
+	&.horizontal-card {
+		flex-basis: 30%;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		gap: 1.25em;
+		.card-content {
+			justify-content: center;
+			min-height: 100%;
+			gap: 0.5em;
+			width: auto;
+			min-width: unset;
+		}
+		.card-description {
+			width: auto;
+		}
+		&.large-card .card-content {
+			gap: 30px;
+		}
+		&.small-card {
+			.card-content {
+				gap: 0.5em
+			}
+			.card-label {
+				font-size: 10px
+			}
+		}
+		&.large-card {
+			flex: 0 0 100%;
+		}
+	}
+}
+
+.full-width {
+	width: 100%;
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 1.5rem;
+	color: var(--white-color);
+	
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	picture {
+		transition: 0.75s ease;
+	}
+	.card-media {
+		width: 100%;
+		overflow: hidden;
+	}
+	.card-label {
+		position: absolute;
+		left: 0;
+		top: 1.5rem;
+		color: var(--white-color);
+		background-color: var(--black-color);
+	}
+	.card-content {
+		width: 100%;
+		min-width: unset;
+		z-index: 10;
+		position: absolute;
+		align-items: center;
+		justify-content: flex-end;
+		text-align: center;
+		height: 100%;
+		padding-bottom: 2rem;
+		> * {
+			transition: 0.5s ease;
+		}
+	}
+	.card-author {
+		font-size: 0.8rem;
+	}
+	.card-description {
+		max-width: 600px;
+		width: auto;
+		min-width: unset;
+		white-space: pre-wrap;
+	}
+
+	&::after {
+		content: "";
+		z-index: 1;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: linear-gradient(360deg, rgba(0,0,0,0.8) 31.83%, rgba(0, 0, 0, 0.4) 100%);
+		transition: 0.5s ease;
+		opacity: 0.4;
+	}
+
+	&:hover {
+		picture {
+			transform: scale(1.25);
+		}
+		&::after {
+			opacity: 1;
+		}
+	}
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: flex-start;
+	gap: 30px;
+	width: 0;
+	min-width: 90%;
+}
+
+.inverted {
+	flex-direction: column-reverse;
+}
+
+.flex-center {
+	align-items: center;
+}
+
+.card-description {
+	// width: 80%;
+	// width: 0;
+  // min-width: 90%;
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	flex-wrap: wrap;
+}
+
+.card-label {
+	display: inline-block;
+	font-size: 0.8rem;
+	font-weight: 700;
+	padding: 0.1rem 1.1rem;
+	background-color: var(--label-background);
+	color: var(--label-color);
+	text-transform: uppercase;
+}
+
+.card-media {
+	position: relative;
+	.play-button {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+.card-rating {
+	display: inline-block;
+	font-size: 0.8rem;
+	font-weight: 700;
+	padding: 0.05rem 0.8rem;
+	background-color: var(--label-background);
+	color: var(--label-color);
+	text-transform: uppercase;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.card-number {
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #7B7B7B;
+}

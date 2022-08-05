@@ -1,0 +1,118 @@
+{
+	"footerList": [
+		{
+			"type": "list",
+			"title": "News",
+			"list": [
+				{
+					"title": "Featured News",
+					"url": ""
+				},
+				{
+					"title": "Latest News",
+					"url": ""
+				}
+			]
+		},
+		{
+			"type": "list",
+			"title": "Life",
+			"list": [
+				{
+					"title": "Latest News",
+					"url": ""
+				},
+				{
+					"title": "Fashion",
+					"url": ""
+				},
+				{
+					"title": "Dining",
+					"url": ""
+				},
+				{
+					"title": "Recipes",
+					"url": ""
+				},
+				{
+					"title": "Art & Culture",
+					"url": ""
+				},
+				{
+					"title": "Travel",
+					"url": ""
+				},
+				{
+					"title": "Motoring",
+					"url": ""
+				}
+			]
+		},
+		{
+			"type": "list",
+			"title": "Business",
+			"list": [
+				{
+					"title": "Open House",
+					"url": ""
+				},
+				{
+					"title": "What does that even mean?",
+					"url": ""
+				},
+				{
+					"title": "Homegrown",
+					"url": ""
+				},
+				{
+					"title": "How do I...",
+					"url": ""
+				},
+				{
+					"title": "Bag off",
+					"url": ""
+				},
+				{
+					"title": "Where to spend it",
+					"url": ""
+				}
+			]
+		},
+		{
+			"type": "space"
+		},
+		{
+			"type": "newsletter",
+			"title": "Subscribe",
+			"description": "Get fresh updates about  the fashion, beauty, trends",
+			"placeholder": "Enter your email below",
+			"submit": "Submit"
+		}
+	],
+	"footerPages": [
+		{
+			"title": "Magazine",
+			"url": ""
+		},
+		{
+			"title": "Contact",
+			"url": ""
+		},
+		{
+			"title": "About",
+			"url": ""
+		},
+		{
+			"title": "Press",
+			"url": ""
+		},
+		{
+			"title": "Sitemap",
+			"url": ""
+		},
+		{
+			"title": "TS + CS",
+			"url": ""
+		}
+	]
+}

@@ -1,0 +1,51 @@
+:root {
+	--background: #FFFFFF;
+	--alternate-background: rgb(248, 241, 232);
+	--font-color: #000000;
+	--font-color-rgb: 0, 0, 0;
+	
+	--white-color: #FFFFFF;
+	--black-color: #000000;
+	--yellow-color: #EDC47F;
+	--pink-color: #F0C0C1;
+	--teal-color: #74BDB1;
+	--orange-color: #DD6849;
+	--grey-color: #AEAEAC;
+	
+	--font-size: 18px;
+
+	--label-background: #000000;
+	--label-color: #FFFFFF;
+}
+
+[data-theme="dark"] {
+	--background: #232323;
+	--alternate-background: rgba(248, 241, 232, 0.15);
+	--font-color: #FFFFFF;
+	--font-color-rgb: 255, 255, 255;
+
+	--label-background: #FFFFFF;
+	--label-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #232323;
+		--alternate-background: rgba(248, 241, 232, 0.15);
+		--font-color: #FFFFFF;
+		--font-color-rgb: 255, 255, 255;
+	
+		--label-background: #FFFFFF;
+		--label-color: #000000;
+	}
+
+	[data-theme="light"] {
+		--background: #FFFFFF;
+		--alternate-background: rgb(248, 241, 232);
+		--font-color: #000000;
+		--font-color-rgb: 0, 0, 0;
+	
+		--label-background: #000000;
+		--label-color: #FFFFFF;
+	}
+}

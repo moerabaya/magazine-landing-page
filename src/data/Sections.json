@@ -1,0 +1,374 @@
+[
+	{
+		"with_bg": false,
+		"type": "vertical",
+		"items": [
+			{
+				"img": "./media/header/1.png",
+				"label": "Travel",
+				"title": "Louvre Abu Dhabi marks 4th anniversary with world class exhibitions, programming for all",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel risus dignissim interdum. ",
+				"author": "U. R. Oliver",
+				"centered": true,
+				"inverted": true
+			},
+			{
+				"label": "Vladimir Putin",
+				"items": [
+					{
+						"label": "Dine",
+						"size": "small",
+						"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel risus dignissim interdum.",
+						"author": "U. R. Oliver"
+					},
+					{
+						"label": "Dine",
+						"size": "small",
+						"description": "Phasellus in odio vel risus dignissim interdum. Sed vulputate pretium lobortis.",
+						"author": "U. R. Oliver"
+					},
+					{
+						"label": "OPEN HOUSE",
+						"img": "./media/header/2.png",
+						"size": "small",
+						"description": "Meals on wheels best food trucks in the UAE",
+						"author": "U. R. Oliver"
+					}
+				]
+			},
+			{
+				"label": "Vladimir Putin",
+				"items": [
+					{
+						"label": "OPEN HOUSE",
+						"img": "./media/header/3.png",
+						"size": "small",
+						"description": "UAE: CBSE Term 1 exams begin tomorrow; important guidelines announced",
+						"author": "U. R. Oliver"
+					},
+					{
+						"label": "Dine",
+						"size": "small",
+						"description": "World Expo in Dubai: MP delegation holds discussion over film city and institute",
+						"author": "U. R. Oliver"
+					},
+					{
+						"label": "Dine",
+						"size": "small",
+						"description": "Meals on wheels best food trucks in the UAE",
+						"author": "U. R. Oliver"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "1 row: 5 circles with bg",
+		"title_color": "yellow",
+		"with_bg": true,
+		"type": "vertical",
+		"items": [
+			{
+				"number": 1,
+				"img": "./media/5-circles/1.png",
+				"label": "Vladimir Putin",
+				"description": "Meals on wheels best in the UAE",
+				"centered": true,
+				"circle": true
+			},
+			{
+				"number": 2,
+				"img": "./media/5-circles/2.png",
+				"label": "Vladimir Putin",
+				"description": "Meals on wheels best in the UAE",
+				"centered": true,
+				"circle": true
+			},
+			{
+				"number": 3,
+				"img": "./media/5-circles/3.png",
+				"label": "Vladimir Putin",
+				"description": "Meals on wheels best in the UAE",
+				"centered": true,
+				"circle": true
+			},
+			{
+				"number": 4,
+				"img": "./media/5-circles/4.png",
+				"label": "Vladimir Putin",
+				"description": "Meals on wheels best in the UAE",
+				"centered": true,
+				"circle": true
+			},
+			{
+				"number": 5,
+				"img": "./media/5-circles/5.png",
+				"label": "Vladimir Putin",
+				"description": "Meals on wheels best in the UAE",
+				"centered": true,
+				"circle": true
+			}
+		]
+	},
+	{
+		"title": "2 rows: 1 x 3",
+		"title_color": "pink",
+		"type": "horizontal",
+		"items": [
+			{
+				"img": "./media/2-1x3-horizontal/1-large.png",
+				"label": "Travel",
+				"description": "Exhin imlave asfear asfasas afsfeaarsa asfasfasf asfasfa ten cultable doice inverum",
+				"title": "Louvre Abu Dhabi marks 4th anniversary with world class exhibitions, programming for all",
+				"size": "large",
+				"author": "Cvita Doleschall"
+			},
+			{
+				"img": "./media/2-1x3-horizontal/1.png",
+				"label": "Culture",
+				"description": "Meals on wheels best food trucks \n in the UAE",
+				"size": "small",
+				"author": "U. R. Oliver"
+			},
+			{
+				"img": "./media/2-1x3-horizontal/2.png",
+				"label": "Culture",
+				"description": "Meals on wheels best food trucks \n in the UAE",
+				"size": "small",
+				"author": "U. R. Oliver"
+			},
+			{
+				"img": "./media/2-1x3-horizontal/3.png",
+				"label": "Culture",
+				"description": "Meals on wheels best food trucks \n in the UAE",
+				"size": "small",
+				"author": "U. R. Oliver"
+			}
+		]
+	},
+	{
+		"title": "1 row: 4 with bg",
+		"title_color": "teal",
+		"with_bg": true,
+		"type": "vertical",
+		"items": [
+			{
+				"img": "./media/1x4/1.png",
+				"label": "Omar Mukhtar",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best in Meals on wheels: best in",
+				"author": "U. R. Oliver",
+				"centered": true
+			},
+			{
+				"img": "./media/1x4/2.png",
+				"label": "Lil Larry",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best in Meals on wheels: best in",
+				"author": "U. R. Oliver",
+				"centered": true
+			},
+			{
+				"img": "./media/1x4/3.png",
+				"label": "Lubna Hamdan",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best in Meals on wheels: best in",
+				"author": "U. R. Oliver",
+				"centered": true
+			},
+			{
+				"img": "./media/1x4/4.png",
+				"label": "Shawn Jhon",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best in Meals on wheels: best in",
+				"author": "U. R. Oliver",
+				"centered": true
+			}
+		]
+	},
+	{
+		"title": "1 Full Width Article",
+		"title_color": "orange",
+		"type": "vertical",
+		"items": [
+			{
+				"img": "./media/1x1-full-width/1.png",
+				"label": "Long Read",
+				"pre_title": "Meals on wheels: best in the UAE",
+				"description": "Louvre Abu Dhabi marks 4th anniversary with world class exhibition Louvre Abu Dhabi marks 4th anniversary with world class exhibitions, programming for all",
+				"author": "U. R. Oliver",
+				"isFullWidth": true
+			}
+		]
+	},
+	{
+		"title": "1 row: 2 x 1 inverted",
+		"title_color": "yellow",
+		"with_bg": false,
+		"type": "vertical",
+		"items": [
+			{
+				"img": "./media/1x2-inverted/1.png",
+				"label": "OPEN HOUSE",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel.",
+				"author": "U. R. Oliver",
+				"centered": true,
+				"inverted": false
+			},
+			{
+				"img": "./media/1x2-inverted/2.png",
+				"label": "OPEN HOUSE",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel.",
+				"author": "U. R. Oliver",
+				"centered": true,
+				"inverted": true
+			},
+			{
+				"img": "./media/1x2-inverted/3.png",
+				"label": "OPEN HOUSE",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel.",
+				"author": "U. R. Oliver",
+				"centered": true,
+				"inverted": false
+			}
+		]
+	},
+	{
+		"title": "1 row: 2 stories with bg",
+		"title_color": "pink",
+		"with_bg": true,
+		"type": "story",
+		"items": [
+			{
+				"post_title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel.",
+				"label": "Half full",
+				"title": "Louvre Abu Dhabi marks 4th anniversary with world class exhibition Louvre Abu Dhabi marks 4th"
+			},
+			{
+				"label": "One story, Two perspectives",
+				"img": "./media/1-2-stories/1.png",
+				"img_alternate": "./media/1-2-stories/1-alternate.png",
+				"centered": true,
+				"inverted": true
+			},
+			{
+				"post_csstitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in odio vel.",
+				"label": "Half empty",
+				"title": "Louvre Abu Dhabi marks 4th anniversary with world class exhibition Louvre Abu Dhabi marks 4th"
+			}
+		]
+	},
+	{
+		"title": "1 row: 4 reviews",
+		"title_color": "teal",
+		"with_bg": true,
+		"type": "vertical",
+		"items": [
+			{
+				"img": "./media/1x4-reviews/1.png",
+				"label": "Eat",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best in Meals on wheels: best in",
+				"author": "U. R. Oliver",
+				"rating": 4.4
+			},
+			{
+				"img": "./media/1x4-reviews/2.png",
+				"label": "Eat",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best in Meals on wheels: best in",
+				"author": "U. R. Oliver",
+				"rating": 4.4
+			},
+			{
+				"img": "./media/1x4-reviews/3.png",
+				"label": "Eat",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best in Meals on wheels: best in",
+				"author": "U. R. Oliver",
+				"rating": 4.4
+			},
+			{
+				"img": "./media/1x4-reviews/4.png",
+				"label": "Eat",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best in Meals on wheels: best in",
+				"author": "U. R. Oliver",
+				"rating": 4.4
+			}
+		]
+	},
+	{
+		"title": "2 rows: 3 x 3",
+		"title_color": "orange",
+		"type": "horizontal",
+		"items": [
+			{
+				"img": "./media/2-3x3-horizontal/1.png",
+				"label": "keto kebabs",
+				"description": "Meals on wheels best food trucks \n in the UAE",
+				"size": "regular",
+				"author": "U. R. Oliver"
+			},
+			{
+				"img": "./media/2-3x3-horizontal/2.png",
+				"label": "italian deserts",
+				"description": "Meals on wheels best food trucks \n in the UAE",
+				"size": "regular",
+				"author": "U. R. Oliver"
+			},
+			{
+				"img": "./media/2-3x3-horizontal/3.png",
+				"label": "japanese flavors",
+				"description": "Meals on wheels best food trucks \n in the UAE",
+				"size": "regular",
+				"author": "U. R. Oliver"
+			},
+			{
+				"img": "./media/2-3x3-horizontal/4.png",
+				"label": "vegan meals",
+				"description": "Meals on wheels best food trucks \n in the UAE",
+				"size": "regular",
+				"author": "U. R. Oliver"
+			},
+			{
+				"img": "./media/2-3x3-horizontal/5.png",
+				"label": "french pasta",
+				"description": "Meals on wheels best food trucks \n in the UAE",
+				"size": "regular",
+				"author": "U. R. Oliver"
+			},
+			{
+				"img": "./media/2-3x3-horizontal/6.png",
+				"label": "korean bbq",
+				"description": "Meals on wheels best food trucks \n in the UAE",
+				"size": "regular",
+				"author": "U. R. Oliver"
+			}
+		]
+	},
+	{
+		"title": "1 row: 3 video",
+		"title_color": "pink",
+		"with_bg": false,
+		"type": "vertical",
+		"items": [
+			{
+				"img": "./media/1x3-video/1.png",
+				"label": "Eat",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best",
+				"author": "U. R. Oliver",
+				"centered": true,
+				"isVideo": true
+			},
+			{
+				"img": "./media/1x3-video/2.png",
+				"label": "Eat",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best",
+				"author": "U. R. Oliver",
+				"centered": true,
+				"isVideo": true
+			},
+			{
+				"img": "./media/1x3-video/3.png",
+				"label": "Eat",
+				"description": "Meals on wheels: Meals on wheels: best in the UAE best",
+				"author": "U. R. Oliver",
+				"centered": true,
+				"isVideo": true
+			}
+		]
+	}
+]

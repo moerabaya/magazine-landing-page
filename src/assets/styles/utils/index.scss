@@ -1,0 +1,84 @@
+@import "functions";
+.center-text {
+	text-align: center;
+}
+.right-text {
+	text-align: right;
+}
+.center-vertical {
+	vertical-align: middle;
+	> * {
+		vertical-align: middle;
+		display: inline-block;
+	}
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.bold {
+	font-weight: bold;
+}
+.heavy {
+	font-weight: 900;
+}
+a {
+	color: var(--font-color);
+	font-size: 1em;
+}
+a.hover {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+a.strong {
+	text-transform: uppercase;
+	font-weight: 900;
+}
+small {
+	font-size: functions.em(12);
+}
+
+$title-colors: "pink", "orange", "yellow", "teal";
+$line-style: 3px dotted var(--grey-color);
+
+h1.title, h2.title, h3.title, h4.title, h5.title, h6.title {
+	font-size: 2.2rem;
+	margin: 0;
+	padding: 0.61em 0;
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+	&.has-border {
+		border-top: $line-style;
+		border-bottom: $line-style;
+	}
+}
+
+@each $color in $title-colors {
+  .#{$color}-title {
+    color: var(--#{$color}-color);
+  }
+}
+
+
+// Override Element Styles
+hr {
+	border: 0;
+	border-top: $line-style;
+	margin: 0.9rem 0;
+}
+
+//Svg Styles
+
+.filled {
+	path {
+		fill: var(--font-color);
+	}
+}
+
+.stroked { 
+	path {
+		stroke: var(--font-color);
+	}
+}

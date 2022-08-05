@@ -1,0 +1,11 @@
+.articles-wrapper {
+	margin: 2.5rem 0;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 1.5em;
+	&.with-bg {
+		background-color: var(--alternate-background);
+		padding: 2em;
+	}
+}
